@@ -1,14 +1,11 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
 
-@ccclass('SelfPlane')
+@ccclass("SelfPlane")
 export class SelfPlane extends Component {
-    start() {
+  start() {
+    console.log(1);
+  }
 
-    }
-
-    update(deltaTime: number) {
-        
-    }
+  update(deltaTime: number) {}
 }
-
